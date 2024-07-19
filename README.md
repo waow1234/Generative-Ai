@@ -24,7 +24,7 @@ The Stock and Investment Chatbot is designed to assist users in obtaining inform
 
 3. **Run the App**:
     ```bash
-    streamlit run app.py
+    python app.py
     ```
 
 4. **Access the App**:
