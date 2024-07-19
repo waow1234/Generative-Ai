@@ -43,8 +43,21 @@ Embedding is a technique to convert textual data into numerical vectors that rep
 Question Answering Pipeline: Utilizes the distilbert-base-cased-distilled-squad model to answer user questions based on provided context.
 
 ## API Usage
-Alpha Vantage API
-The Alpha Vantage API is used to fetch real-time stock price data. To use the API, you need an API key which can be obtained by signing up on the Alpha Vantage website.
+- **Alpha Vantage API**: Used to fetch stock price data. You need to sign up and obtain an API Key from the Alpha Vantage website.
+
+## Instructions for Running and Testing MVP
+1. **Install Dependencies**:
+    ```bash
+    pip install transformers requests flask python-dotenv
+    ```
+2. **Set Up API Key**:
+    - Sign up and obtain an API Key from Alpha Vantage.
+    - Set the API Key in the code.
+
+3. **Run the Chatbot**:
+    - Run the main script to start the Chatbot.
+    - Test various functions by sending questions to the Chatbot through the Command Line or a supported platform.
+
 
 ## Future Enhancements
 Enhanced UI: Improve the user interface for better user experience.
