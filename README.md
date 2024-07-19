@@ -12,6 +12,28 @@ The Stock and Investment Chatbot is designed to assist users in obtaining inform
 - **Alpha Vantage API**: Provides real-time stock prices and financial data.
 - **Generative AI**: Used to create sample data and train models (if applicable).
 
+## Setup and Run
+
+1. **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. **Configure API Key**:
+    - Obtain an API Key from [Alpha Vantage](https://www.alphavantage.co/support/#api-key) and set it in the `.env` file.
+
+3. **Run the App**:
+    ```bash
+    streamlit run app.py
+    ```
+
+4. **Access the App**:
+    Open your web browser and go to the URL provided by Streamlit to interact with the chatbot.
+
+## Notes
+- Ensure that you have Python 3.6+ installed.
+- Update the `.env` file with your actual API key.
+  
 ## Embedding Techniques
 
 Embedding is a technique to convert textual data into numerical vectors that represent the semantic meaning of words or phrases. For this project, BERT (Bidirectional Encoder Representations from Transformers) is used to create embeddings. BERT transforms text into vectors that capture contextual relationships between words.
