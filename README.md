@@ -1,10 +1,10 @@
 # Generative-Ai
-#Overview and Use Cases
+## Overview and Use Cases
 This Flask application integrates AI and financial data retrieval to provide a robust solution for answering questions and fetching stock prices. It has three main functionalities:
 
-Question Answering: Uses a pre-trained transformer model to answer questions based on provided context.
-Stock Price Retrieval: Fetches real-time stock prices using the Alpha Vantage API.
-Stock Comparison: Compares stock prices of multiple symbols.
+ - **Question Answering: Uses a pre-trained transformer model to answer questions based on provided context.
+ - **Stock Price Retrieval: Fetches real-time stock prices using the Alpha Vantage API.
+ - **Stock Comparison: Compares stock prices of multiple symbols.
 Use Cases
 Financial Analysts: Quickly get answers to financial questions and compare stock prices.
 Investors: Retrieve real-time stock prices to make informed decisions.
