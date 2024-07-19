@@ -58,6 +58,11 @@ Question Answering Pipeline: Utilizes the distilbert-base-cased-distilled-squad 
     - Run the main script to start the Chatbot.
     - Test various functions by sending questions to the Chatbot through the Command Line or a supported platform.
 
+## User Interface and Usability (UI/UX)
+The current implementation is a web-based application using Flask and Bootstrap for a responsive design. The UI allows users to:
+    -Ask questions about stock and investment.
+    -Get stock information by providing a stock symbol.
+    -Compare multiple stocks by entering their symbols.
 
 ## Future Enhancements
 Enhanced UI: Improve the user interface for better user experience.
