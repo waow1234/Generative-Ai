@@ -23,3 +23,8 @@ Question Answering Pipeline: Utilizes the distilbert-base-cased-distilled-squad 
 ## API Usage
 Alpha Vantage API
 The Alpha Vantage API is used to fetch real-time stock price data. To use the API, you need an API key which can be obtained by signing up on the Alpha Vantage website.
+
+##Future Enhancements
+Enhanced UI: Improve the user interface for better user experience.
+Additional APIs: Integrate more APIs for broader financial data coverage.
+Advanced Analytics: Implement advanced data analytics features for deeper market insights.
