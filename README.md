@@ -7,21 +7,15 @@ The Stock and Investment Chatbot is designed to assist users in obtaining inform
 - **Compare Stock Prices**: Users can compare prices of multiple stock symbols.
 - **Answer Financial Questions**: Users can ask general financial or stock-related questions to receive contextual answers.
 ## Technologies and Tools
-## AI Techniques and Tools
--Transformers: Utilizes the pipeline function from the Hugging Face Transformers library for question answering.
--Pre-trained Model: distilbert-base-cased-distilled-squad model from Hugging Face for efficient question answering.
-## Stock Price Retrieval
--Alpha Vantage API: Fetches real-time stock data.
-##Flask
--Flask Framework: Handles routing and server-side logic.
--Jinja2: Renders HTML templates.
-## Environment Management
--python-dotenv: Loads environment variables from a .env file for secure API key management.
-## Embedding Explanation
-## Question Answering Pipeline
-The question answering functionality uses the Hugging Face Transformers library, specifically the pipeline method with the question-answering task. The model used is distilbert-base-cased-distilled-squad, which is a distilled version of BERT for question answering tasks, providing a balance between performance and speed.
-## Stock Price Retrieval Function
-The function get_stock_price fetches stock prices using the Alpha Vantage API. It constructs a URL with the provided stock symbol and API key, makes a GET request, and returns the JSON response.
+- **Hugging Face Transformers**: Used to create the question-answering model and generate contextual answers.
+- **SpaCy**: Utilized for natural language processing tasks (if applicable).
+- **Alpha Vantage API**: Provides real-time stock prices and financial data.
+- **Generative AI**: Used to create sample data and train models (if applicable).
+
+## Embedding Techniques
+
+Embedding is a technique to convert textual data into numerical vectors that represent the semantic meaning of words or phrases. For this project, BERT (Bidirectional Encoder Representations from Transformers) is used to create embeddings. BERT transforms text into vectors that capture contextual relationships between words.
+
 
 ## Hugging Face Components Used
 Question Answering Pipeline: Utilizes the distilbert-base-cased-distilled-squad model to answer user questions based on provided context.
