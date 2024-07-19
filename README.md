@@ -1,14 +1,11 @@
-# Generative-Ai
+# Stock and Investment Chatbot
 ## Overview and Use Cases
-This Flask application integrates AI and financial data retrieval to provide a robust solution for answering questions and fetching stock prices. It has three main functionalities:
+The Stock and Investment Chatbot is designed to assist users in obtaining information about stock prices and financial data. It also provides investment recommendations and analysis based on user queries. The chatbot can answer questions, fetch real-time stock prices, and compare multiple stock symbols.
 
- - Question Answering: Uses a pre-trained transformer model to answer questions based on provided context.
- - Stock Price Retrieval: Fetches real-time stock prices using the Alpha Vantage API.
- - Stock Comparison: Compares stock prices of multiple symbols.
-## Use Cases
--Financial Analysts: Quickly get answers to financial questions and compare stock prices.
--Investors: Retrieve real-time stock prices to make informed decisions.
--Developers: Use the API to build applications that require financial data and AI-driven question answering.
+### Use Cases
+- **Query Stock Information**: Users can request current stock prices for individual symbols.
+- **Compare Stock Prices**: Users can compare prices of multiple stock symbols.
+- **Answer Financial Questions**: Users can ask general financial or stock-related questions to receive contextual answers.
 ## Technologies and Tools
 ## AI Techniques and Tools
 -Transformers: Utilizes the pipeline function from the Hugging Face Transformers library for question answering.
